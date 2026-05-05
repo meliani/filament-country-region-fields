@@ -1,19 +1,14 @@
 <?php
 
 use Illuminate\Support\Facades\App;
-use Illuminate\Support\Facades\Cache;
-use Mockery\MockInterface;
 use Parfaitementweb\FilamentCountryField\Forms\Components\Country;
+use Parfaitementweb\FilamentCountryField\Tests\TestableCountry;
 
 it('returns the country list by default', function () {
-    $mock = $this->partialMock(Country::class, function (MockInterface $mock) {
-        $mock->shouldReceive('getList')
-            ->once()
-            ->andReturn(['CA' => 'Canada', 'US' => 'United States']);
-    });
+    $country = (new TestableCountry('country'))
+        ->setTestCountries(['CA' => 'Canada', 'US' => 'United States']);
 
-    $options = $mock
-        ->getOptions();
+    $options = $country->getOptions();
 
     expect($options)->toBe(['CA' => 'Canada', 'US' => 'United States']);
 });
@@ -27,13 +22,10 @@ it('returns the options list if set', function () {
 });
 
 it('can add element with options', function () {
-    $mock = $this->partialMock(Country::class, function (MockInterface $mock) {
-        $mock->shouldReceive('getList')
-            ->once()
-            ->andReturn(['CA' => 'Canada', 'US' => 'United States']);
-    });
+    $country = (new TestableCountry('country'))
+        ->setTestCountries(['CA' => 'Canada', 'US' => 'United States']);
 
-    $options = $mock
+    $options = $country
         ->add(['MA' => 'Mars'])
         ->getOptions();
 
@@ -41,13 +33,10 @@ it('can add element with options', function () {
 });
 
 it('can exclude element with options', function () {
-    $mock = $this->partialMock(Country::class, function (MockInterface $mock) {
-        $mock->shouldReceive('getList')
-            ->once()
-            ->andReturn(['CA' => 'Canada', 'US' => 'United States']);
-    });
+    $country = (new TestableCountry('country'))
+        ->setTestCountries(['CA' => 'Canada', 'US' => 'United States']);
 
-    $options = $mock
+    $options = $country
         ->exclude(['CA'])
         ->getOptions();
 
@@ -55,13 +44,10 @@ it('can exclude element with options', function () {
 });
 
 it('can map element keys with options', function () {
-    $mock = $this->partialMock(Country::class, function (MockInterface $mock) {
-        $mock->shouldReceive('getList')
-            ->once()
-            ->andReturn(['CA' => 'Canada', 'US' => 'United States']);
-    });
+    $country = (new TestableCountry('country'))
+        ->setTestCountries(['CA' => 'Canada', 'US' => 'United States']);
 
-    $options = $mock
+    $options = $country
         ->map(['CA' => 'CN'])
         ->getOptions();
 
@@ -69,13 +55,10 @@ it('can map element keys with options', function () {
 });
 
 it('can map element keys with options as an array', function () {
-    $mock = $this->partialMock(Country::class, function (MockInterface $mock) {
-        $mock->shouldReceive('getList')
-            ->once()
-            ->andReturn(['CA' => 'Canada', 'US' => 'United States']);
-    });
+    $country = (new TestableCountry('country'))
+        ->setTestCountries(['CA' => 'Canada', 'US' => 'United States']);
 
-    $options = $mock
+    $options = $country
         ->map(['CA' => 'CN', 'US' => 'UN'])
         ->getOptions();
 
@@ -83,26 +66,19 @@ it('can map element keys with options as an array', function () {
 });
 
 it('returns options sorted by keys by default', function () {
-    $mock = $this->partialMock(Country::class, function (MockInterface $mock) {
-        $mock->shouldReceive('getList')
-            ->once()
-            ->andReturn(['US' => 'United States', 'CA' => 'Canada', 'BE' => 'Belgium']);
-    });
+    $country = (new TestableCountry('country'))
+        ->setTestCountries(['US' => 'United States', 'CA' => 'Canada', 'BE' => 'Belgium']);
 
-    $options = $mock
-        ->getOptions();
+    $options = $country->getOptions();
 
     expect($options)->toBe(['BE' => 'Belgium', 'CA' => 'Canada', 'US' => 'United States']);
 });
 
 it('returns options after exclude, add and map elements', function () {
-    $mock = $this->partialMock(Country::class, function (MockInterface $mock) {
-        $mock->shouldReceive('getList')
-            ->once()
-            ->andReturn(['US' => 'United States', 'CA' => 'Canada', 'BE' => 'Belgium']);
-    });
+    $country = (new TestableCountry('country'))
+        ->setTestCountries(['US' => 'United States', 'CA' => 'Canada', 'BE' => 'Belgium']);
 
-    $options = $mock
+    $options = $country
         ->exclude(['CA'])
         ->add(['MA' => 'Mars'])
         ->map(['BE' => 'BN'])
@@ -112,13 +88,10 @@ it('returns options after exclude, add and map elements', function () {
 });
 
 it('ignores empty keys when map is called', function () {
-    $mock = $this->partialMock(Country::class, function (MockInterface $mock) {
-        $mock->shouldReceive('getList')
-            ->once()
-            ->andReturn(['US' => 'United States', 'CA' => 'Canada']);
-    });
+    $country = (new TestableCountry('country'))
+        ->setTestCountries(['US' => 'United States', 'CA' => 'Canada']);
 
-    $options = $mock
+    $options = $country
         ->map(['' => 'CN'])
         ->getOptions();
 
@@ -126,13 +99,10 @@ it('ignores empty keys when map is called', function () {
 });
 
 it('returns default options when methods are called with empty array', function () {
-    $mock = $this->partialMock(Country::class, function (MockInterface $mock) {
-        $mock->shouldReceive('getList')
-            ->once()
-            ->andReturn(['US' => 'United States', 'CA' => 'Canada']);
-    });
+    $country = (new TestableCountry('country'))
+        ->setTestCountries(['US' => 'United States', 'CA' => 'Canada']);
 
-    $options = $mock
+    $options = $country
         ->exclude([])
         ->add([])
         ->map([])
@@ -146,7 +116,7 @@ it('gets the data from the correct file in English', function () {
     $data = (new Country('country'))
         ->getList();
 
-    expect($data)->toBe(require __DIR__ . '/../src/data/en/country.php');
+    expect($data)->toBe(require __DIR__ . '/../resources/lang/en/country.php');
 });
 
 it('gets the data from the correct file in French', function () {
@@ -154,7 +124,7 @@ it('gets the data from the correct file in French', function () {
     $data = (new Country('country'))
         ->getList();
 
-    expect($data)->toBe(require __DIR__ . '/../src/data/fr/country.php');
+    expect($data)->toBe(require __DIR__ . '/../resources/lang/fr/country.php');
 });
 
 it('gets the english version is current locale does not exist', function () {
@@ -162,33 +132,84 @@ it('gets the english version is current locale does not exist', function () {
     $data = (new Country('country'))
         ->getList();
 
-    expect($data)->toBe(require __DIR__ . '/../src/data/en/country.php');
+    expect($data)->toBe(require __DIR__ . '/../resources/lang/en/country.php');
 });
 
 it('gets the simplified version of the locale name', function () {
     App::setLocale('fr_BE');
+
     $data = (new Country('country'))
         ->getList();
 
-    expect($data)->toBe(require __DIR__ . '/../src/data/fr/country.php');
+    expect($data)->toBe(require __DIR__ . '/../resources/lang/fr/country.php');
 });
 
-it('caches the countries', function () {
-    App::setLocale('en');
-    $countryField = (new Country('country'))
+it('can filter to only show specific countries', function () {
+    $country = (new TestableCountry('country'))
+        ->setTestCountries(['US' => 'United States', 'CA' => 'Canada', 'BE' => 'Belgium']);
+
+    $options = $country
+        ->only(['US', 'CA'])
         ->getOptions();
 
-    expect(Cache::get('filament-countries-field.en'))->toBe(require __DIR__ . '/../src/data/en/country.php');
+    expect($options)->toBe(['CA' => 'Canada', 'US' => 'United States']);
 });
 
-it('clears the countries cache', function () {
-    App::setLocale('en');
-    $countryField = (new Country('country'))
+it('shows all countries when only() is called with an empty array', function () {
+    $country = (new TestableCountry('country'))
+        ->setTestCountries(['US' => 'United States', 'CA' => 'Canada', 'BE' => 'Belgium']);
+
+    $options = $country
+        ->only([])
         ->getOptions();
 
-    expect(Cache::get('filament-countries-field.en'))->toBe(require __DIR__ . '/../src/data/en/country.php');
+    expect($options)->toBe(['BE' => 'Belgium', 'CA' => 'Canada', 'US' => 'United States']);
+});
 
-    Artisan::call('countries-field:clear');
+it('shows all countries when only() is passed non-existent country codes', function () {
+    $country = (new TestableCountry('country'))
+        ->setTestCountries(['US' => 'United States', 'CA' => 'Canada', 'BE' => 'Belgium']);
 
-    expect(Cache::get('filament-countries-field.en'))->toBeNull();
+    $options = $country
+        ->only(['XX', 'YY'])
+        ->getOptions();
+
+    expect($options)->toBe(['BE' => 'Belgium', 'CA' => 'Canada', 'US' => 'United States']);
+});
+
+it('correctly combines only() with exclude() to filter countries', function () {
+    $country = (new TestableCountry('country'))
+        ->setTestCountries(['US' => 'United States', 'CA' => 'Canada', 'BE' => 'Belgium', 'FR' => 'France']);
+
+    $options = $country
+        ->only(['US', 'CA', 'BE'])
+        ->exclude(['BE'])
+        ->getOptions();
+
+    expect($options)->toBe(['CA' => 'Canada', 'US' => 'United States']);
+});
+
+it('returns filtered options after only(), exclude(), add() and map() operations', function () {
+    $country = (new TestableCountry('country'))
+        ->setTestCountries(['US' => 'United States', 'CA' => 'Canada', 'BE' => 'Belgium', 'FR' => 'France']);
+
+    $options = $country
+        ->only(['US', 'CA', 'BE'])
+        ->exclude(['BE'])
+        ->add(['MA' => 'Mars'])
+        ->map(['US' => 'UN'])
+        ->getOptions();
+
+    expect($options)->toBe(['CA' => 'Canada', 'MA' => 'Mars', 'UN' => 'United States']);
+});
+
+it('can filter valid countries when only() contains a mix of valid and invalid codes', function () {
+    $country = (new TestableCountry('country'))
+        ->setTestCountries(['US' => 'United States', 'CA' => 'Canada', 'BE' => 'Belgium']);
+
+    $options = $country
+        ->only(['US', 'XX'])
+        ->getOptions();
+
+    expect($options)->toBe(['US' => 'United States']);
 });

@@ -17,17 +17,44 @@ class Country extends Select
 
     protected array | Arrayable | string | Closure | null $mapped = null;
 
+    protected array | Arrayable | string | Closure | null $only = null;
+
+    protected function setUp(): void
+    {
+        parent::setUp();
+
+        $this->options($this->getOptions());
+    }
+
     public function getOptions(): array
     {
         $options = $this->evaluate($this->options) ?? [];
 
         if (! empty($options)) {
+
+            if ($options instanceof Arrayable) {
+                $options = $options->toArray();
+            }
+
             return $options;
         }
 
         $countries = $this->getCountriesList();
 
         return collect($countries)
+            ->when($this->only, function ($options) {
+                $onlyCountries = $this->getOnly();
+
+                if (empty($onlyCountries)) {
+                    return $options;
+                }
+
+                $filtered = $options->filter(function ($country, $key) use ($onlyCountries) {
+                    return in_array($key, $onlyCountries);
+                });
+
+                return $filtered->isEmpty() ? $options : $filtered;
+            })
             ->when($this->mapped, function ($options) {
                 return $options->mapWithKeys(function ($country, $key) {
                     if (in_array($key, array_keys($this->mapped))) {
@@ -79,5 +106,17 @@ class Country extends Select
     public function getAdd(): array
     {
         return $this->evaluate($this->added ?? []);
+    }
+
+    public function only(array | Closure | string | Arrayable | null $only = null): static
+    {
+        $this->only = $only;
+
+        return $this;
+    }
+
+    public function getOnly(): array
+    {
+        return $this->evaluate($this->only ?? []);
     }
 }
