@@ -220,7 +220,6 @@ return [
     'AS' => 'Samotha na h-Aimeireaga',
     'SM' => 'San Marino',
     'ST' => 'São Tomé agus Príncipe',
-    'EH' => 'Sathara an Iar',
     'NZ' => 'Sealainn Nuadh',
     'SN' => 'Seanagal',
     'GS' => 'Seòirsea a Deas is na h-Eileanan Sandwich a Deas',

@@ -247,7 +247,6 @@ return [
     'VE' => 'Venecuela',
     'VN' => 'Vijetnam',
     'ZM' => 'Zambija',
-    'EH' => 'Zapadna Sahara',
     'CV' => 'Zelenortska Ostrva',
     'ZW' => 'Zimbabve',
 ];

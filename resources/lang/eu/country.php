@@ -156,7 +156,6 @@ return [
     'MR' => 'Mauritania',
     'MU' => 'Maurizio',
     'YT' => 'Mayotte',
-    'EH' => 'Mendebaldeko Sahara',
     'MX' => 'Mexiko',
     'FM' => 'Mikronesia',
     'MD' => 'Moldavia',

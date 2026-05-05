@@ -239,7 +239,6 @@ return [
     'UA' => 'Ukraina',
     'UY' => 'Urugvajus',
     'UZ' => 'Uzbekistanas',
-    'EH' => 'Vakarų Sachara',
     'VU' => 'Vanuatu',
     'VA' => 'Vatikano Miesto Valstybė',
     'VE' => 'Venesuela',

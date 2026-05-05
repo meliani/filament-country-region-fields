@@ -175,7 +175,6 @@ return [
     'NO' => 'Norway',
     'UM' => 'Obere Agwaetiti Dị Na Mpụga U.S',
     'OM' => 'Oman',
-    'EH' => 'Ọdịda Anyanwụ Sahara',
     'PK' => 'Pakistan',
     'PW' => 'Palau',
     'PS' => 'Palestinian Territories',

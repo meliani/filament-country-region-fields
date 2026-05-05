@@ -144,7 +144,6 @@ return [
     'RO' => 'ir-Rumanija',
     'RU' => 'ir-Russja',
     'RW' => 'ir-Rwanda',
-    'EH' => 'is-Saħara tal-Punent',
     'AS' => 'is-Samoa Amerikana',
     'SN' => 'is-Senegal',
     'RS' => 'is-Serbja',

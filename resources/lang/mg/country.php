@@ -244,7 +244,6 @@ return [
     'VE' => 'Venezoelà',
     'VN' => 'Vietnam',
     'WF' => 'Wallis sy Futuna',
-    'EH' => 'Western Sahara',
     'YE' => 'Yemen',
     'ZM' => 'Zambia',
     'GE' => 'Zeorzia',

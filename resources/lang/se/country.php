@@ -170,7 +170,6 @@ return [
     'MK' => 'North Macedonia',
     'TL' => 'Nuorta-Timor',
     'AT' => 'Nuortariika',
-    'EH' => 'Oarje-Sahára',
     'NC' => 'Ođđa-Kaledonia',
     'NZ' => 'Ođđa-Selánda',
     'OM' => 'Oman',

@@ -247,7 +247,6 @@ return [
     'VU' => 'Vanuatu',
     'VA' => 'Vatikanbýur',
     'VE' => 'Venesuela',
-    'EH' => 'Vestursahara',
     'VN' => 'Vjetnam',
     'WF' => 'Wallis- og Futunaoyggjar',
 ];

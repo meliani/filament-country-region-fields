@@ -243,7 +243,6 @@ return [
     'VE' => 'Venezuela',
     'VN' => 'Vietnam',
     'BY' => 'Vitryssland',
-    'EH' => 'Västsahara',
     'WF' => 'Wallis- och Futunaöarna',
     'ZM' => 'Zambia',
     'ZW' => 'Zimbabwe',

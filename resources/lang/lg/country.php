@@ -236,7 +236,6 @@ return [
     'VE' => 'Venzwera',
     'VN' => 'Vyetinaamu',
     'WF' => 'Walisi ne Futuna',
-    'EH' => 'Western Sahara',
     'UY' => 'Wurugwayi',
     'UZ' => 'Wuzibekisitaani',
     'YE' => 'Yemeni',

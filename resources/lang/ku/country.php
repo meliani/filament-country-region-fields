@@ -188,7 +188,6 @@ return [
     'RO' => 'Romanya',
     'RU' => 'Rûsya',
     'RW' => 'Rwanda',
-    'EH' => 'Sahraya Rojava',
     'KN' => 'Saint Kitts û Nevîs',
     'LC' => 'Saint Lucia',
     'VC' => 'Saint Vincent û Giravên Grenadîn',

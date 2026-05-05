@@ -170,7 +170,6 @@ return [
     'PY' => 'O Paraguai',
     'PE' => 'O Perú',
     'GB' => 'O Reino Unido',
-    'EH' => 'O Sáhara Occidental',
     'SV' => 'O Salvador',
     'SD' => 'O Sudán',
     'SS' => 'O Sudán do Sur',

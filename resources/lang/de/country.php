@@ -247,7 +247,6 @@ return [
     'VN' => 'Vietnam',
     'WF' => 'Wallis und Futuna',
     'CX' => 'Weihnachtsinsel',
-    'EH' => 'Westsahara',
     'CF' => 'Zentralafrikanische Republik',
     'CY' => 'Zypern',
 ];

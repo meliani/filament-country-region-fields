@@ -249,5 +249,4 @@ return [
     'AE' => 'United Arab Emirates',
     'UZ' => 'Uzbekistan',
     'WF' => 'Wallis & Futuna',
-    'EH' => 'Western Sahara',
 ];

@@ -188,7 +188,6 @@ return [
     'RO' => 'Roumania',
     'RU' => 'Rusia',
     'RW' => 'Rwanda',
-    'EH' => 'Sahara ar Cʼhornôg',
     'BL' => 'Saint Barthélemy',
     'KN' => 'Saint Kitts ha Nevis',
     'LC' => 'Saint Lucia',

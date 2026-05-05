@@ -243,7 +243,6 @@ return [
     'AE' => 'Verenigde Arabyske Emiraten',
     'VN' => 'Vietnam',
     'WF' => 'Wallis en Futuna',
-    'EH' => 'Westelijke Sahara',
     'BY' => 'Wit-Ruslân',
     'ID' => 'Yndonesië',
     'IS' => 'Yslân',

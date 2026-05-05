@@ -222,7 +222,6 @@ return [
     'TJ' => 'Tajikistan',
     'TZ' => 'Tanzania',
     'ES' => 'Tây Ban Nha',
-    'EH' => 'Tây Sahara',
     'TH' => 'Thái Lan',
     'VA' => 'Thành Vatican',
     'TR' => 'Thổ Nhĩ Kỳ',

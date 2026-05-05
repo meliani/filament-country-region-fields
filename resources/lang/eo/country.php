@@ -170,7 +170,6 @@ return [
     'NO' => 'Norvegujo',
     'NC' => 'Nov-Kaledonio',
     'NZ' => 'Nov-Zelando',
-    'EH' => 'Okcidenta Saharo',
     'OM' => 'Omano',
     'PK' => 'Pakistano',
     'PS' => 'Palestinian Territories',

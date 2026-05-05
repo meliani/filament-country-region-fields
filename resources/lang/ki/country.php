@@ -246,7 +246,6 @@ return [
     'VI' => 'Visiwa vya Virgin vya Marekani',
     'VG' => 'Visiwa vya Virgin vya Uingereza',
     'WF' => 'Walis na Futuna',
-    'EH' => 'Western Sahara',
     'YE' => 'Yemeni',
     'ZM' => 'Zambia',
     'ZW' => 'Zimbabwe',

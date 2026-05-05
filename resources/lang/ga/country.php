@@ -84,7 +84,6 @@ return [
     'GB' => 'an Ríocht Aontaithe',
     'RO' => 'an Rómáin',
     'RU' => 'an Rúis',
-    'EH' => 'an Sahára Thiar',
     'ES' => 'an Spáinn',
     'TJ' => 'an Táidsíceastáin',
     'TZ' => 'an Tansáin',

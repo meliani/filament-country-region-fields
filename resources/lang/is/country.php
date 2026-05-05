@@ -246,7 +246,6 @@ return [
     'VU' => 'Vanúatú',
     'VA' => 'Vatíkanið',
     'VE' => 'Venesúela',
-    'EH' => 'Vestur-Sahara',
     'VN' => 'Víetnam',
     'WF' => 'Wallis- og Fútúnaeyjar',
     'DE' => 'Þýskaland',

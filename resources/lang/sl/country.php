@@ -243,7 +243,6 @@ return [
     'VE' => 'Venezuela',
     'VN' => 'Vietnam',
     'WF' => 'Wallis in Futuna',
-    'EH' => 'Zahodna Sahara',
     'ZM' => 'Zambija',
     'US' => 'Združene države Amerike',
     'AE' => 'Združeni arabski emirati',

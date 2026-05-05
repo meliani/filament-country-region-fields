@@ -87,7 +87,6 @@ return [
     'GG' => 'Guernse nutome',
     'GN' => 'Guini nutome',
     'GY' => 'Guyanadu',
-    'EH' => 'Ɣetoɖoƒe Sahara nutome',
     'HT' => 'Haiti nutome',
     'HM' => 'Heard kple Mcdonald ƒudomekpowo nutome',
     'HN' => 'Hondurasdu',

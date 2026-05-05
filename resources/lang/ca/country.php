@@ -192,7 +192,6 @@ return [
     'RO' => 'Romania',
     'RW' => 'Ruanda',
     'RU' => 'Rússia',
-    'EH' => 'Sàhara Occidental',
     'BL' => 'Saint Barthélemy',
     'KN' => 'Saint Christopher i Nevis',
     'SH' => 'Saint Helena',

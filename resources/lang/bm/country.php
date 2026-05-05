@@ -237,7 +237,6 @@ return [
     'VE' => 'Venezuwela',
     'VC' => 'Vinisɛn-Senu-ni-Grenadini',
     'WF' => 'Walisi-ni-Futuna',
-    'EH' => 'Western Sahara',
     'VN' => 'Wiyɛtinamu',
     'ZA' => 'Worodugu Afriki',
     'KR' => 'Worodugu Kore',

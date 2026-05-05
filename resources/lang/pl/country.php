@@ -176,7 +176,6 @@ return [
     'RU' => 'Rosja',
     'RO' => 'Rumunia',
     'RW' => 'Rwanda',
-    'EH' => 'Sahara Zachodnia',
     'KN' => 'Saint Kitts i Nevis',
     'LC' => 'Saint Lucia',
     'VC' => 'Saint Vincent i Grenadyny',

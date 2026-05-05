@@ -240,7 +240,6 @@ return [
     'VE' => 'i-Venezuela',
     'VN' => 'i-Vietnam',
     'WF' => 'i-Wallis ne-Futuna',
-    'EH' => 'i-Western Sahara',
     'YE' => 'i-Yemen',
     'ZM' => 'i-Zambia',
     'BW' => 'iBotswana',

@@ -128,7 +128,6 @@ return [
     'KR' => 'Lõuna-Korea',
     'SS' => 'Lõuna-Sudaan',
     'LV' => 'Läti',
-    'EH' => 'Lääne-Sahara',
     'MO' => 'Macau erihalduspiirkond',
     'MG' => 'Madagaskar',
     'MY' => 'Malaisia',

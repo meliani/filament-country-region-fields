@@ -240,7 +240,6 @@ return [
     'VE' => 'Venézuela',
     'VN' => 'Viyetinamɛ',
     'WF' => 'Walisɛ mpé Futuna',
-    'EH' => 'Western Sahara',
     'YE' => 'Yemɛnɛ',
     'JM' => 'Zamaiki',
     'ZM' => 'Zambi',

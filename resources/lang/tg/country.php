@@ -6,7 +6,6 @@ return [
     'CD' => 'Congo - Kinshasa',
     'PS' => 'Palestinian Territories',
     'KR' => 'South Korea',
-    'EH' => 'Western Sahara',
     'AU' => 'Австралия',
     'AT' => 'Австрия',
     'AL' => 'Албания',

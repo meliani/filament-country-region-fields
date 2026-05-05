@@ -186,7 +186,6 @@ return [
     'RO' => 'Ruméni',
     'RU' => 'Rusia',
     'RW' => 'Rwanda',
-    'EH' => 'Sahara Kulon',
     'BL' => 'Saint Barthélémi',
     'SH' => 'Saint Héléna',
     'KN' => 'Saint Kits lan Nèvis',

@@ -23,7 +23,6 @@ return [
     'BH' => 'Bahreyn',
     'BD' => 'Bangladeş',
     'BB' => 'Barbados',
-    'EH' => 'Batı Sahra',
     'BY' => 'Belarus',
     'BE' => 'Belçika',
     'BZ' => 'Belize',

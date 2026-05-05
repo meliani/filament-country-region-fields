@@ -167,7 +167,6 @@ return [
     'RE' => 'Reunion',
     'RO' => 'Romania',
     'RW' => 'Rwanda',
-    'EH' => 'Sahara Magharibi',
     'WS' => 'Samoa',
     'AS' => 'Samoa ya Marekani',
     'SM' => 'San Marino',

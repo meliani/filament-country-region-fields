@@ -241,7 +241,6 @@ return [
     'VU' => 'Vanuatu',
     'VA' => 'Vatikanstaten',
     'VE' => 'Venezuela',
-    'EH' => 'Vestsahara',
     'VN' => 'Vietnam',
     'WF' => 'Wallis og Futuna',
     'YE' => 'Yemen',

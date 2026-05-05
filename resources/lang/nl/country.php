@@ -241,7 +241,6 @@ return [
     'US' => 'Verenigde Staten',
     'VN' => 'Vietnam',
     'WF' => 'Wallis en Futuna',
-    'EH' => 'Westelijke Sahara',
     'ZM' => 'Zambia',
     'ZW' => 'Zimbabwe',
     'ZA' => 'Zuid-Afrika',

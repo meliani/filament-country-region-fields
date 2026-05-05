@@ -145,7 +145,6 @@ return [
     'BL' => 'Sā Patēlemi',
     'PM' => 'Sā Piea mo Mikeloni',
     'VC' => 'Sā Viniseni mo Kulenatini',
-    'EH' => 'Sahala fakahihifo',
     'CY' => 'Saipalesi',
     'JM' => 'Samaika',
     'ST' => 'Sao Tomē mo Pilinisipe',

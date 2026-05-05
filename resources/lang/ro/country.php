@@ -190,7 +190,6 @@ return [
     'RO' => 'România',
     'RU' => 'Rusia',
     'RW' => 'Rwanda',
-    'EH' => 'Sahara Occidentală',
     'KN' => 'Saint Kitts și Nevis',
     'VC' => 'Saint Vincent și Grenadinele',
     'BL' => 'Saint-Barthélemy',

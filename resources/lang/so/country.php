@@ -207,7 +207,6 @@ return [
     'AS' => 'Samowa Ameerika',
     'SM' => 'San Marino',
     'ST' => 'Sao Tome & Birincibal',
-    'EH' => 'Saxaraha Galbeed',
     'RS' => 'Seerbiya',
     'CN' => 'Shiinaha',
     'SX' => 'Siint Maarteen',

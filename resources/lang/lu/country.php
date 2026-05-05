@@ -245,7 +245,6 @@ return [
     'VE' => 'Venezuela',
     'VN' => 'Viyetiname',
     'WF' => 'Walise ne Futuna',
-    'EH' => 'Western Sahara',
     'YE' => 'Yemenu',
     'ZM' => 'Zambi',
     'NZ' => 'Zelanda wa mumu',

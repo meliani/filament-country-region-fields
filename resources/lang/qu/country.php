@@ -193,7 +193,6 @@ return [
     'RW' => 'Ruanda',
     'RO' => 'Rumania',
     'RU' => 'Rusia',
-    'EH' => 'Sahara Occidental',
     'WS' => 'Samoa',
     'AS' => 'Samoa Americana',
     'BL' => 'San Bartolomé',

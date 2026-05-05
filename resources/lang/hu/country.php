@@ -174,7 +174,6 @@ return [
     'NU' => 'Niue',
     'NF' => 'Norfolk-sziget',
     'NO' => 'Norvégia',
-    'EH' => 'Nyugat-Szahara',
     'IT' => 'Olaszország',
     'OM' => 'Omán',
     'RU' => 'Oroszország',

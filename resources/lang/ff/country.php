@@ -247,7 +247,6 @@ return [
     'WF' => 'Walis e Futuna',
     'VU' => 'Wanuwaatuu',
     'VE' => 'Wenesuwelaa',
-    'EH' => 'Western Sahara',
     'VN' => 'Wiyetnaam',
     'YE' => 'Yemen',
 ];

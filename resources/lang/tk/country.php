@@ -83,7 +83,6 @@ return [
     'GR' => 'Gresiýa',
     'GE' => 'Gruziýa',
     'GU' => 'Guam',
-    'EH' => 'Günbatar Sahara',
     'ZA' => 'Günorta Afrika',
     'GS' => 'Günorta Georgiýa we Günorta Sendwiç adasy',
     'KR' => 'Günorta Koreýa',

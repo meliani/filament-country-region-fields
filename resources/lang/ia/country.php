@@ -189,7 +189,6 @@ return [
     'RO' => 'Romania',
     'RW' => 'Ruanda',
     'RU' => 'Russia',
-    'EH' => 'Sahara occidental',
     'WS' => 'Samoa',
     'AS' => 'Samoa american',
     'SM' => 'San Marino',

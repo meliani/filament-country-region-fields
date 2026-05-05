@@ -238,7 +238,6 @@ return [
     'ZM' => 'Zambiya',
     'ZW' => 'Zimbabve',
     'UZ' => 'Oʻzbekiston',
-    'EH' => 'G‘arbiy Sahroi Kabir',
     'KP' => 'Shimoliy Koreya',
     'MK' => 'Shimoliy Makedoniya',
     'MP' => 'Shimoliy Mariana orollari',

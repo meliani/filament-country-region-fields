@@ -185,7 +185,6 @@ return [
     'RW' => 'Ruandë',
     'RO' => 'Rumani',
     'RU' => 'Rusi',
-    'EH' => 'Saharaja Perëndimore',
     'SV' => 'Salvador',
     'WS' => 'Samoa',
     'AS' => 'Samoa Amerikane',

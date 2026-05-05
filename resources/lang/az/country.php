@@ -118,7 +118,6 @@ return [
     'GH' => 'Qana',
     'GY' => 'Qayana',
     'KZ' => 'Qazaxıstan',
-    'EH' => 'Qərbi Saxara',
     'QA' => 'Qətər',
     'KG' => 'Qırğızıstan',
     'GD' => 'Qrenada',

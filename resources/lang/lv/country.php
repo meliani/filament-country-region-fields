@@ -185,7 +185,6 @@ return [
     'PT' => 'Portugāle',
     'PR' => 'Puertoriko',
     'RE' => 'Reinjona',
-    'EH' => 'Rietumsahāra',
     'RW' => 'Ruanda',
     'RO' => 'Rumānija',
     'SV' => 'Salvadora',

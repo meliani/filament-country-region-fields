@@ -247,7 +247,6 @@ return [
     'VN' => 'Vietnam',
     'BY' => 'Wäissrussland',
     'WF' => 'Wallis a Futuna',
-    'EH' => 'Westsahara',
     'CF' => 'Zentralafrikanesch Republik',
     'CY' => 'Zypern',
 ];

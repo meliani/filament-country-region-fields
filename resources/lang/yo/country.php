@@ -19,7 +19,6 @@ return [
     'HK' => 'Hong Kong SAR China',
     'VA' => 'Ìlú Vatican',
     'IM' => 'Isle of Man',
-    'EH' => 'Ìwọ̀òòrùn Sàhárà',
     'JE' => 'Jersey',
     'MO' => 'Macao SAR China',
     'ME' => 'Montenegro',

@@ -126,7 +126,6 @@ return [
     'LI' => 'Liechtenstein',
     'LT' => 'Liettua',
     'LU' => 'Luxemburg',
-    'EH' => 'Länsi-Sahara',
     'MO' => 'Macao – Kiinan e.h.a.',
     'MG' => 'Madagaskar',
     'MW' => 'Malawi',

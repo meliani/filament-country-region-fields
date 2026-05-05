@@ -248,6 +248,5 @@ return [
     'TL' => 'Východný Timor',
     'WF' => 'Wallis a Futuna',
     'ZM' => 'Zambia',
-    'EH' => 'Západná Sahara',
     'ZW' => 'Zimbabwe',
 ];

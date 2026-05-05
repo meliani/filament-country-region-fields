@@ -241,7 +241,6 @@ return [
     'UM' => 'U.S. Outlying Islands',
     'UZ' => 'Uzubekistan',
     'WF' => 'Walis Da Futuna',
-    'EH' => 'Western Sahara',
     'YE' => 'Yamal',
     'IO' => 'Yankin Birtaniya Na Tekun Indiya',
     'TF' => 'Yankin Faransi ta Kudu',

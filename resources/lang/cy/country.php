@@ -69,7 +69,6 @@ return [
     'GI' => 'Gibraltar',
     'KP' => 'Gogledd Korea',
     'MK' => 'Gogledd Macedonia',
-    'EH' => 'Gorllewin Sahara',
     'GD' => 'Grenada',
     'GP' => 'Guadeloupe',
     'GU' => 'Guam',

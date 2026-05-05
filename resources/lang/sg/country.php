@@ -237,7 +237,6 @@ return [
     'VE' => 'Venezueläa',
     'VN' => 'Vietnäm',
     'WF' => 'Walîsi na Futuna',
-    'EH' => 'Western Sahara',
     'YE' => 'Yëmêni',
     'JM' => 'Zamaîka',
     'DE' => 'Zâmani',

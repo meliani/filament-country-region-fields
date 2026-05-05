@@ -246,7 +246,6 @@ return [
     'VN' => 'Viëtnam',
     'VI' => 'VSA se Maagde-eilande',
     'WF' => 'Wallis en Futuna',
-    'EH' => 'Wes-Sahara',
     'IS' => 'Ysland',
     'ZM' => 'Zambië',
     'ZW' => 'Zimbabwe',

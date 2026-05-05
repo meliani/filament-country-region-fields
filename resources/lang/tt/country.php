@@ -9,7 +9,6 @@ return [
     'KR' => 'South Korea',
     'SH' => 'St. Helena',
     'VA' => 'Vatican City',
-    'EH' => 'Western Sahara',
     'AU' => 'Австралия',
     'AT' => 'Австрия',
     'US' => 'АКШ',
