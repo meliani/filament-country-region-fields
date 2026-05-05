@@ -2,7 +2,6 @@
 
 return [
     'TF' => 'Agbègbè Gúúsù Faranṣé',
-    'PS' => 'Agbègbè Palẹsítíànù',
     'AX' => 'Åland Islands',
     'AQ' => 'Antarctica',
     'MK' => 'Àríwá Macedonia',
@@ -124,7 +123,6 @@ return [
     'DE' => 'Orílẹèdè Jámánì',
     'JP' => 'Orílẹ́ède Japani',
     'JO' => 'Orílẹ́ède Jọdani',
-    'NC' => 'Orílẹ́ède Kaledonia Titun',
     'CM' => 'Orílẹ́ède Kamerúúnì',
     'KH' => 'Orílẹ́ède Kàmùbódíà',
     'CA' => 'Orílẹ́ède Kánádà',
@@ -193,7 +191,6 @@ return [
     'PM' => 'Orílẹ́ède Pẹẹri ati mikuloni',
     'PN' => 'Orílẹ́ède Pikarini',
     'PL' => 'Orílẹ́ède Polandi',
-    'PR' => 'Orílẹ́ède Pọto Riko',
     'PT' => 'Orílẹ́ède Pọ́túgà',
     'RE' => 'Orílẹ́ède Riuniyan',
     'RO' => 'Orílẹ́ède Romaniya',
@@ -225,7 +222,6 @@ return [
     'CL' => 'Orílẹ́ède ṣílè',
     'ZW' => 'Orílẹ́ède ṣimibabe',
     'TH' => 'Orílẹ́ède Tailandi',
-    'TW' => 'Orílẹ́ède Taiwani',
     'TJ' => 'Orílẹ́ède Takisitani',
     'TZ' => 'Orílẹ́ède Tàǹsáníà',
     'TT' => 'Orílẹ́ède Tirinida ati Tobaga',
