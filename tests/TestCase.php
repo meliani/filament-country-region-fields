@@ -42,9 +42,9 @@ class TestCase extends Orchestra
 
     protected function getPackageProviders($app)
     {
-        return [
+        return array_filter([
             ActionsServiceProvider::class,
-            BladeCaptureDirectiveServiceProvider::class,
+            class_exists(BladeCaptureDirectiveServiceProvider::class) ? BladeCaptureDirectiveServiceProvider::class : null,
             BladeHeroiconsServiceProvider::class,
             BladeIconsServiceProvider::class,
             FilamentServiceProvider::class,
@@ -56,7 +56,7 @@ class TestCase extends Orchestra
             TablesServiceProvider::class,
             WidgetsServiceProvider::class,
             FilamentCountryFieldServiceProvider::class,
-        ];
+        ]);
     }
 
     public function getEnvironmentSetUp($app)
